@@ -1,5 +1,4 @@
 require 'sensu-check-helpers/version'
+require 'sensu-check-helpers/alerts'
 
-module SensuCheckHelpers
-  # Your code goes here...
-end
+include SensuCheckHelpers::Alerts

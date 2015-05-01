@@ -4,7 +4,7 @@ require 'sensu-check-helpers/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'sensu-check-helpers'
-  spec.version       = Sensu::Check::Helpers::VERSION
+  spec.version       = SensuCheckHelpers::VERSION
   spec.authors       = ['Ben Snape']
   spec.email         = ['ben.snape@itv.com']
   spec.summary       = %q{Shared code used across custom Sensu checks}
