@@ -7,6 +7,9 @@ require 'socket'
 require 'chronic_duration'
 require 'open-uri'
 require 'json'
+require 'net/https'
+
+include OpenURI
 
 include SensuCheckHelpers::Alerts
 include SensuCheckHelpers::Time
