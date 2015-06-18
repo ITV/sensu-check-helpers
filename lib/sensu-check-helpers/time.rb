@@ -7,11 +7,11 @@ module SensuCheckHelpers
     end
 
     def as_seconds(duration)
-      ChronicDuration.parse(duration.to_s, :keep_zero => true)
+      ChronicDuration.parse(duration.to_s, keep_zero: true)
     end
 
     def pretty_time(duration)
-      ChronicDuration.output(duration, :format => :long)
+      ChronicDuration.output(duration, format: :long)
     end
 
   end
