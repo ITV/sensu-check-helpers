@@ -16,3 +16,4 @@ include OpenURI
 include SensuCheckHelpers::Alerts
 include SensuCheckHelpers::Time
 include SensuCheckHelpers::Request
+include SensuCheckHelpers::AWS
