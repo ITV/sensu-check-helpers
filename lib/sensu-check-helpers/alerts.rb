@@ -1,7 +1,5 @@
 module SensuCheckHelpers
-
   module Alerts
-
     OK       = 0
     WARNING  = 1
     CRITICAL = 2
@@ -27,7 +25,5 @@ module SensuCheckHelpers
       check_result = { name: alert_name, status: CRITICAL, output: "CRITICAL: #{alert_message}", handlers: handlers }
       sensu_client_socket check_result.to_json
     end
-
   end
-
 end
