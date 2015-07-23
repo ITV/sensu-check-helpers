@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake'
 
   spec.add_dependency 'chronic_duration', '~> 0.10'
+  spec.add_dependency 'aws-sdk', '~> 2'
 end
